@@ -17,9 +17,5 @@ CurrenciesListItem.propTypes = {
   data: PropTypes.object,
   no: PropTypes.number
 };
-CurrenciesListItem.propTypes = {
-  data: PropTypes.object,
-  no: PropTypes.number
-};
 
 export default CurrenciesListItem;
