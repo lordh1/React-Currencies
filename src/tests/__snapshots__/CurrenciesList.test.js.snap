@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Library matches snapshot 1`] = `
+"<Currencies>
+  <div className=\\"Currencies\\">
+    <h1>
+      Currencies
+    </h1>
+    <FavoriteCurrenciesList currencies={{...}} favoriteCurrencies={{...}} onClick={[Function: favoriteCurrenciesToggle]}>
+      <div className=\\"FavoriteCurrenciesList\\">
+        <h2>
+          Please click on the currency to follow/unfollow it
+        </h2>
+        <FavoriteCurrenciesListItem data={{...}} no={1} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            THB
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={2} onClick={[Function: favoriteCurrenciesToggle]} isActive={true}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        FavoriteCurrenciesListItem__active\\">
+            USD
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={3} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            AUD
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={4} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            HKD
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={5} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            CAD
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={6} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            NZD
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={7} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            SGD
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={8} onClick={[Function: favoriteCurrenciesToggle]} isActive={true}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        FavoriteCurrenciesListItem__active\\">
+            EUR
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={9} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            HUF
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={10} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            CHF
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={11} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            GBP
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={12} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            UAH
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={13} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            JPY
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={14} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            CZK
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={15} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            DKK
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={16} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            ISK
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={17} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            NOK
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={18} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            SEK
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={19} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            HRK
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={20} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            RON
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={21} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            BGN
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={22} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            TRY
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={23} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            ILS
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={24} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            CLP
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={25} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            PHP
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={26} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            MXN
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={27} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            ZAR
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={28} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            BRL
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={29} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            MYR
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={30} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            RUB
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={31} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            IDR
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={32} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            INR
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={33} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            KRW
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={34} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            CNY
+          </span>
+        </FavoriteCurrenciesListItem>
+        <FavoriteCurrenciesListItem data={{...}} no={35} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
+          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+            XDR
+          </span>
+        </FavoriteCurrenciesListItem>
+      </div>
+    </FavoriteCurrenciesList>
+    <CurrenciesList currencies={{...}} favoriteCurrencies={{...}}>
+      <div className=\\"CurrenciesList\\">
+        <h2>
+          Rates of your favorite currencies
+        </h2>
+        <div className=\\"CurrenciesList__header\\">
+          <div>
+            No
+          </div>
+          <div>
+            Currency
+          </div>
+          <div>
+            Code
+          </div>
+          <div>
+            Mid
+          </div>
+        </div>
+        <CurrenciesListItem data={{...}} no={1}>
+          <div className=\\"CurrenciesListItem\\">
+            <div className=\\"CurrenciesListItem__column\\">
+              1
+            </div>
+            <div className=\\"CurrenciesListItem__column\\">
+              dolar amerykański
+            </div>
+            <div className=\\"CurrenciesListItem__column\\">
+              USD
+            </div>
+            <div className=\\"CurrenciesListItem__column\\">
+              3.8101
+            </div>
+          </div>
+        </CurrenciesListItem>
+        <CurrenciesListItem data={{...}} no={2}>
+          <div className=\\"CurrenciesListItem\\">
+            <div className=\\"CurrenciesListItem__column\\">
+              2
+            </div>
+            <div className=\\"CurrenciesListItem__column\\">
+              euro
+            </div>
+            <div className=\\"CurrenciesListItem__column\\">
+              EUR
+            </div>
+            <div className=\\"CurrenciesListItem__column\\">
+              4.2353
+            </div>
+          </div>
+        </CurrenciesListItem>
+      </div>
+    </CurrenciesList>
+  </div>
+</Currencies>"
+`;

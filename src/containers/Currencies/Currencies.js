@@ -2,7 +2,7 @@ import * as React from "react";
 import { useDispatch, useMappedState } from "redux-react-hook";
 import "./Currencies.scss";
 import CurrenciesList from "../../components/Currencies/CurrenciesList";
-import FavoriteCurrenciesList from "../../components/CurrenciesFavorite/FavoriteCurrenciesList";
+import FavoriteCurrenciesList from "../../components/FavoriteCurrencies/FavoriteCurrenciesList";
 import * as favoriteCurrenciesTypes from "../../store/favoriteCurrencies/types";
 
 const mapState = (state) => ({
