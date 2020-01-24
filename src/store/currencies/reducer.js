@@ -1,7 +1,7 @@
-import * as LibraryTypes from "./types";
+import * as LibraryTypes from './types';
 
 export const currenciesInitState = {
-  rates: []
+  rates: [],
 };
 
 export const currenciesReducer = (state = currenciesInitState, action) => {

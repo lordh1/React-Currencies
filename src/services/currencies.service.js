@@ -1,4 +1,4 @@
-import { currenciesInitState } from "../store/currencies/reducer";
+import { currenciesInitState } from '../store/currencies/reducer';
 
 export default class CurrenciesService {
   constructor() {
@@ -7,17 +7,20 @@ export default class CurrenciesService {
 
   get = () => {
     const options = {
-      method: "GET"
+      method: 'GET',
     };
 
     return fetch(`${this.apiUrl}`, options)
-      .then(async (response) => {
+      .then(async response => {
         return {
           status: response.status,
-          json: response.status === 200 ? await response.json() : currenciesInitState
+          json:
+            response.status === 200
+              ? await response.json()
+              : currenciesInitState,
         };
       })
-      .catch((error) => {
+      .catch(error => {
         throw error;
       });
   };

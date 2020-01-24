@@ -1,12 +1,12 @@
-import { createStore, combineReducers, applyMiddleware } from "redux";
-import createSagaMiddleware from "redux-saga";
-import { composeWithDevTools } from "redux-devtools-extension";
-import { currenciesReducer } from "./currencies/reducer";
-import { favoriteCurrenciesReducer } from "./favoriteCurrencies/reducer";
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import { currenciesReducer } from './currencies/reducer';
+import { favoriteCurrenciesReducer } from './favoriteCurrencies/reducer';
 
 const rootReducer = combineReducers({
   currencies: currenciesReducer,
-  favoriteCurrencies: favoriteCurrenciesReducer
+  favoriteCurrencies: favoriteCurrenciesReducer,
 });
 
 export default function configureStore() {
@@ -16,6 +16,6 @@ export default function configureStore() {
 
   return {
     ...createStore(rootReducer, composeWithDevTools(middleWareEnhancer)),
-    runSaga: sagaMiddleware.run
+    runSaga: sagaMiddleware.run,
   };
 }

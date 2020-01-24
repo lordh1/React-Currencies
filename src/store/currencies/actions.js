@@ -1,14 +1,14 @@
-import * as currenciesTypes from "./types";
+import * as currenciesTypes from './types';
 
 export const CurrenciesFetch = () => ({
-  type: currenciesTypes.CURRENCIES_FETCH
+  type: currenciesTypes.CURRENCIES_FETCH,
 });
 
-export const CurrenciesSet = (payload) => ({
+export const CurrenciesSet = payload => ({
   type: currenciesTypes.CURRENCIES_SET,
-  payload
+  payload,
 });
 
 export const CurrenciesFlush = () => ({
-  type: currenciesTypes.CURRENCIES_FLUSH
+  type: currenciesTypes.CURRENCIES_FLUSH,
 });

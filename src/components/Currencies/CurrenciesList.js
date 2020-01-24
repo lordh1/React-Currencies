@@ -1,17 +1,15 @@
-import * as React from "react";
-import PropTypes from "prop-types";
-import CurrenciesListItem from "./CurrenciesListItem";
-import "./CurrenciesList.scss";
-import { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
+import CurrenciesListItem from './CurrenciesListItem';
+import './CurrenciesList.scss';
 
 const CurrenciesList = ({ currencies, favoriteCurrencies }) => {
   const [currenciesList, setCurrenciesList] = useState([]);
 
   useEffect(() => {
     const list = [...currencies.rates];
-    const filteredList = list.filter((item) =>
-      favoriteCurrencies.includes(item.code)
+    const filteredList = list.filter(item =>
+      favoriteCurrencies.includes(item.code),
     );
     setCurrenciesList(filteredList);
   }, [favoriteCurrencies, currencies]);
@@ -41,8 +39,10 @@ const CurrenciesList = ({ currencies, favoriteCurrencies }) => {
 };
 
 CurrenciesList.propTypes = {
-  currencies: PropTypes.object,
-  favoriteCurrencies: PropTypes.array
+  currencies: PropTypes.shape({
+    rates: PropTypes.array,
+  }).isRequired,
+  favoriteCurrencies: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default CurrenciesList;

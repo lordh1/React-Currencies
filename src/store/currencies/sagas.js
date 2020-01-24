@@ -1,6 +1,6 @@
-import { put, call } from "redux-saga/effects";
-import * as currenciesActions from "./actions";
-import CurrenciesService from "../../services/currencies.service";
+import { put, call } from 'redux-saga/effects';
+import * as currenciesActions from './actions';
+import CurrenciesService from '../../services/currencies.service';
 
 export function* doCurrenciesFetch() {
   const currenciesService = new CurrenciesService();

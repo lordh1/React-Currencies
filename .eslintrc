@@ -1,17 +1,36 @@
 {
   "env": {
     "browser": true,
-    "jest": true,
     "es6": true
   },
-  "extends": "eslint:recommended",
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
   "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
+  "plugins": ["react"],
   "rules": {
-    "no-console": "warn",
-    "no-eval": "error",
-    "import/first": "error"
+    "react/jsx-filename-extension": "off",
+    "arrow-parens": ["error", "as-needed"],
+    "react/jsx-one-expression-per-line": ["error", { "allow": "single-child" }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+    "react/no-array-index-key": "warn",
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "import/prefer-default-export": 0
+
   }
 }

@@ -1,10 +1,14 @@
-import * as React from "react";
-import FavoriteCurrenciesListItem from "./FavoriteCurrenciesListItem";
-import "./FavoriteCurrenciesList.scss";
-import PropTypes from "prop-types";
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import FavoriteCurrenciesListItem from './FavoriteCurrenciesListItem';
+import './FavoriteCurrenciesList.scss';
 
-const FavoriteCurrenciesList = ({ currencies, favoriteCurrencies, onClick }) => {
-  const checkIsActive = (code) => {
+const FavoriteCurrenciesList = ({
+  currencies,
+  favoriteCurrencies,
+  onClick,
+}) => {
+  const checkIsActive = code => {
     return !!favoriteCurrencies.includes(code);
   };
 
@@ -25,9 +29,11 @@ const FavoriteCurrenciesList = ({ currencies, favoriteCurrencies, onClick }) => 
 };
 
 FavoriteCurrenciesList.propTypes = {
-  currencies: PropTypes.object,
-  favoriteCurrencies: PropTypes.array,
-  onClick: PropTypes.func
+  currencies: PropTypes.shape({
+    rates: PropTypes.array,
+  }).isRequired,
+  favoriteCurrencies: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default FavoriteCurrenciesList;

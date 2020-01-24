@@ -1,10 +1,10 @@
-import * as favoriteCurrenciesTypes from "./types";
+import * as favoriteCurrenciesTypes from './types';
 
-export const FavoriteCurrenciesToggle = (code) => ({
+export const FavoriteCurrenciesToggle = code => ({
   type: favoriteCurrenciesTypes.FAVORITE_CURRENCIES_TOGGLE,
-  code: code
+  code,
 });
 
 export const FavoriteCurrenciesFlush = () => ({
-  type: favoriteCurrenciesTypes.FAVORITE_CURRENCIES_FLUSH
+  type: favoriteCurrenciesTypes.FAVORITE_CURRENCIES_FLUSH,
 });

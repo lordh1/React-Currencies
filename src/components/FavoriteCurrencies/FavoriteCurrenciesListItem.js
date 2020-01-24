@@ -1,13 +1,16 @@
-import React from "react";
-import "./FavoriteCurrenciesListItem.scss";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './FavoriteCurrenciesListItem.scss';
 
 const FavoriteCurrenciesListItem = ({ data, onClick, isActive }) => {
   return (
     <span
       onClick={() => onClick(data.code)}
-      className={`${"FavoriteCurrenciesListItem"}
-        ${isActive ? "FavoriteCurrenciesListItem__active" : ""}`}
+      onKeyPress={() => onClick(data.code)}
+      className={`${'FavoriteCurrenciesListItem'}
+      ${isActive ? 'FavoriteCurrenciesListItem__active' : ''}`}
+      role="button"
+      tabIndex="0"
     >
       {data.code}
     </span>
@@ -15,9 +18,11 @@ const FavoriteCurrenciesListItem = ({ data, onClick, isActive }) => {
 };
 
 FavoriteCurrenciesListItem.propTypes = {
-  data: PropTypes.object,
-  onClick: PropTypes.func,
-  isActive: PropTypes.bool
+  data: PropTypes.shape({
+    code: PropTypes.string,
+  }).isRequired,
+  onClick: PropTypes.func.isRequired,
+  isActive: PropTypes.bool.isRequired,
 };
 
 export default FavoriteCurrenciesListItem;

@@ -1,6 +1,6 @@
-import React from "react";
-import "./CurrenciesListItem.scss";
-import PropTypes from "prop-types";
+import React from 'react';
+import './CurrenciesListItem.scss';
+import PropTypes from 'prop-types';
 
 const CurrenciesListItem = ({ data, no }) => {
   return (
@@ -14,8 +14,12 @@ const CurrenciesListItem = ({ data, no }) => {
 };
 
 CurrenciesListItem.propTypes = {
-  data: PropTypes.object,
-  no: PropTypes.number
+  data: PropTypes.shape({
+    currency: PropTypes.string.isRequired,
+    code: PropTypes.string.isRequired,
+    mid: PropTypes.number.isRequired,
+  }).isRequired,
+  no: PropTypes.number.isRequired,
 };
 
 export default CurrenciesListItem;

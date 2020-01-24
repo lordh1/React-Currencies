@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.scss";
-import Currencies from "./containers/Currencies/Currencies";
+import React from 'react';
+import './App.scss';
+import Currencies from './containers/Currencies/Currencies';
 
 function App() {
   return (
