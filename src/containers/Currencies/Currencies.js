@@ -3,7 +3,8 @@ import { useDispatch, useMappedState } from "redux-react-hook";
 import "./Currencies.scss";
 import CurrenciesList from "../../components/Currencies/CurrenciesList";
 import FavoriteCurrenciesList from "../../components/FavoriteCurrencies/FavoriteCurrenciesList";
-import * as favoriteCurrenciesTypes from "../../store/favoriteCurrencies/types";
+import * as favoriteCurrenciesActions from "../../store/favoriteCurrencies/actions";
+import { bindActionCreators } from "redux";
 
 const mapState = (state) => ({
   currencies: state.currencies,
@@ -12,14 +13,11 @@ const mapState = (state) => ({
 
 const Currencies = () => {
   const dispatch = useDispatch();
-
   const { currencies, favoriteCurrencies } = useMappedState(mapState);
+  const boundFavoriteCurrenciesActions = bindActionCreators(favoriteCurrenciesActions, dispatch);
 
   const favoriteCurrenciesToggle = (code) => {
-    dispatch({
-      type: favoriteCurrenciesTypes.FAVORITE_CURRENCIES_TOGGLE,
-      code: code
-    });
+    boundFavoriteCurrenciesActions.FavoriteCurrenciesToggle(code)
   };
 
   return (
