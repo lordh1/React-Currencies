@@ -1,5 +1,6 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
+var LiveReloadPlugin = require('webpack-livereload-plugin');
 
 module.exports = {
   module: {
@@ -38,5 +39,6 @@ module.exports = {
       filename: './index.html',
     }),
     new Dotenv(),
+    new LiveReloadPlugin(),
   ],
 };
