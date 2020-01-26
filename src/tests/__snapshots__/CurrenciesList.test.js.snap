@@ -12,177 +12,177 @@ exports[`Library matches snapshot 1`] = `
           Please click on the currency to follow/unfollow it
         </h2>
         <FavoriteCurrenciesListItem data={{...}} no={1} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             THB
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={2} onClick={[Function: favoriteCurrenciesToggle]} isActive={true}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        FavoriteCurrenciesListItem__active\\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      FavoriteCurrenciesListItem__active\\" role=\\"button\\" tabIndex=\\"0\\">
             USD
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={3} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             AUD
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={4} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             HKD
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={5} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             CAD
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={6} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             NZD
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={7} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             SGD
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={8} onClick={[Function: favoriteCurrenciesToggle]} isActive={true}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        FavoriteCurrenciesListItem__active\\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      FavoriteCurrenciesListItem__active\\" role=\\"button\\" tabIndex=\\"0\\">
             EUR
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={9} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             HUF
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={10} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             CHF
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={11} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             GBP
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={12} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             UAH
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={13} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             JPY
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={14} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             CZK
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={15} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             DKK
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={16} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             ISK
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={17} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             NOK
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={18} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             SEK
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={19} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             HRK
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={20} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             RON
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={21} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             BGN
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={22} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             TRY
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={23} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             ILS
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={24} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             CLP
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={25} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             PHP
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={26} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             MXN
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={27} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             ZAR
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={28} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             BRL
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={29} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             MYR
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={30} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             RUB
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={31} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             IDR
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={32} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             INR
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={33} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             KRW
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={34} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             CNY
           </span>
         </FavoriteCurrenciesListItem>
         <FavoriteCurrenciesListItem data={{...}} no={35} onClick={[Function: favoriteCurrenciesToggle]} isActive={false}>
-          <span onClick={[Function: onClick]} className=\\"FavoriteCurrenciesListItem\\\\n        \\">
+          <span onClick={[Function: onClick]} onKeyPress={[Function: onKeyPress]} className=\\"FavoriteCurrenciesListItem\\\\n      \\" role=\\"button\\" tabIndex=\\"0\\">
             XDR
           </span>
         </FavoriteCurrenciesListItem>

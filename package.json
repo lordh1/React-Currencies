@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint '**/*.js' --fix",
+    "prettier": "prettier --config ./.prettierrc.js '**/*.js' --write"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +23,9 @@
     "css-loader": "^3.4.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.1.0",
+    "jest-transform-stub": "^2.0.0",
+    "jest-webpack": "^0.5.1",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -31,11 +36,27 @@
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.3",
     "dotenv-webpack": "^1.7.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
     "react-redux": "^7.1.3",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.4",
     "redux-react-hook": "^4.0.1",
-    "redux-saga": "^1.1.3"
+    "redux-saga": "^1.1.3",
+    "regenerator-runtime": "^0.13.3",
+    "remove": "^0.1.5"
   }
 }
