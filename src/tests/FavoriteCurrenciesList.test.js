@@ -57,7 +57,7 @@ const favoriteCurrencies = ['USD', 'EUR'];
 
 const mockStore = configureStore();
 
-describe('Library', () => {
+describe('Currencies', () => {
   let wrapper;
   let store;
 

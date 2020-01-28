@@ -1,4 +1,4 @@
-import * as LibraryTypes from './types';
+import * as CurrenciesTypes from './types';
 
 export const currenciesInitState = {
   rates: [],
@@ -6,9 +6,9 @@ export const currenciesInitState = {
 
 export const currenciesReducer = (state = currenciesInitState, action) => {
   switch (action.type) {
-    case LibraryTypes.CURRENCIES_SET:
+    case CurrenciesTypes.CURRENCIES_SET:
       return action.payload;
-    case LibraryTypes.CURRENCIES_FLUSH:
+    case CurrenciesTypes.CURRENCIES_FLUSH:
       return currenciesInitState;
     default:
       return state;

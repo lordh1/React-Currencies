@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Library matches snapshot 1`] = `
+exports[`Currencies matches snapshot 1`] = `
 "<Currencies>
   <div className=\\"Currencies\\">
     <h1>
